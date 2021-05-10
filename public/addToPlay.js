@@ -1,4 +1,4 @@
- $("#firstSong").on('click', function (e) {
+ $("#firstSong").on('select', function (e) {
      e.preventDefault();
      var data = {
          audioSrc: $("#audioSrcOne").attr("data"),
